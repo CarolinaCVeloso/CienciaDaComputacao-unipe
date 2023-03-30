@@ -8,4 +8,3 @@ elif salario >=2501 and salario <=3000:
     print("O salário reajustado é: " + str(salario * 1.60))
 else:
     print("Salario não se encaixa!!")
-

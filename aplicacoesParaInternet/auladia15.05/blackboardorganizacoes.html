@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Página</title>
+    <title>Organizações</title>
     <style type="text/css">
         body{
             margin: 0;
@@ -34,6 +34,52 @@
             height: 505px;
             padding: 20px;
         }
+
+        .organizacoes-card {
+        width: 900px;
+        height: 100px;
+        border: 1px solid #565555;
+      }
+      .organizacoes-cor {
+        width: 10px;
+        height: 102px;
+        background-color: #51099e;
+      }
+       
+        .organizacoes-container {
+            display: flex;
+            justify-content: left;
+            padding-bottom: 20px;
+            cursor: pointer;
+    
+        }
+        .codigo-organizacoes{
+            font-weight:300;
+            color: #5e5c5c;
+            display:flex;
+            margin-left: 20px;
+            margin-top: 7px;
+            justify-content:left;
+        }
+
+        .info{
+            font-weight:300;
+            color: #5e5c5c;
+            display:flex;
+            margin-left: 30px;
+            margin-top: 15px;
+            justify-content:left;
+            text-decoration: underline;
+        }
+
+        .organizacoes {
+            display:flex;
+            margin-left: 20px;
+            justify-content:left;
+            font-weight: 700;
+            overflow: hidden;
+        }
+
         #footer{
             background-color: #333;
             color: white;
@@ -58,8 +104,16 @@
     </div>
 
     <div id="main">
-        <h2>Bem vindo ao Blackboard</h2>
-        <p>Notícias:</p>
+        <h2>Organizações</h2>
+        <div class="organizacoes-container">
+            <div class="organizacoes-cor">
+                <div class="organizacoes-card">
+                    <p class="codigo-organizacoes">CORD_UNIPE_2023.1</p>
+                    <p class="organizacoes">Coordenação de Ciência da Computação (BACHARELADO) UNIPÊ</p>
+                    <p class="info">More info ↓</p>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="footer">
         <p>Rodapé da página</p>

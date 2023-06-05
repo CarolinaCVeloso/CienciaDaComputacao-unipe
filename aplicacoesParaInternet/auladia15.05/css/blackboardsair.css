@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    min-width: 300px;
+    max-width: 100%;
+}
+#header {
+    background-color: #333;
+    color: white;
+    padding: 9px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#menu {
+    float: left;
+    width: 20%;
+    height: 545px;
+    background-color: #f1f1f1;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+li {
+    list-style: none;
+}
+#main{ 
+    margin-left: 20%;
+    height: 505px;
+    padding: 20px;
+}
+
+h2{
+    margin-top: 200px;
+    text-align: center;
+}
+
+
+
+
+#footer{
+    background-color: #333;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}

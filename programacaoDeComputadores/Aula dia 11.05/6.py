@@ -8,4 +8,4 @@ for i in range (0,10):
     else:
         mvalor = mvalor
 
-print(valor)
+print(mvalor)
